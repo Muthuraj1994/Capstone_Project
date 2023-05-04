@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(features = "src\\test\\java\\features\\Booking.feature",
         glue = {"stepDefinitions"},
-        dryRun = true,
+        dryRun = false,
         monochrome = true,
         publish = true,
         plugin = {"html:target/CucumberReports/cucumberReports.html",

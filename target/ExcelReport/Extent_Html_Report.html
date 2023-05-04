@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr 26, 2023 02:16:43 PM</span></a>
+<a href="#"><span class="badge badge-primary">May 3, 2023 01:10:48 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -81,7 +86,7 @@
           <div class="test-detail">
             <p class="name">Booking Feature</p>
             <p class="text-sm">
-              <span>2:16:44 PM</span> / <span>00:00:00:023</span>
+              <span>1:10:48 PM</span> / <span>00:00:52:989</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -90,9 +95,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Booking Feature</h5>
-<span class='badge badge-success'>04.26.2023 2:16:44 PM</span>
-<span class='badge badge-danger'>04.26.2023 2:16:44 PM</span>
-<span class='badge badge-default'>00:00:00:023</span>
+<span class='badge badge-success'>05.03.2023 1:10:48 PM</span>
+<span class='badge badge-danger'>05.03.2023 1:11:41 PM</span>
+<span class='badge badge-default'>00:00:52:989</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -140,14 +145,46 @@
       <div>
       </div>
                   </div>
-                  <div class="step fail-bg">
-                    <span>And : Users selects Origin "<Origin>" and Destination "<Destination>"</span>
-      <div>Step undefined
+                  <div class="step pass-bg">
+                    <span>And : Users selects Origin "MAA" and Destination "DEL"</span>
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step fail-bg">
                     <span>And : User select the date and clicks on search button</span>
-      <div>Step skipped
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@data-date,'2023-05-28')]"}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d4a4cda1e15837e0b7c18f3a908539e, findElement {using=xpath, value=//span[contains(@data-date,'2023-05-28')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\DINESH~1.ARU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58805/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d4a4cda1e15837e0b7c18f3a908539e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy41.click(Unknown Source)
+	at base.GeneralMethod.selectthedate(GeneralMethod.java:64)
+	at stepDefinitions.BookingStepDefinitions.user_select_the_date_and_clicks_on_search_button(BookingStepDefinitions.java:39)
+	at ✽.: User select the date and clicks on search button(file:///D:/Dinesh_Arul/Automation_Projects/UI/Receipts/SwiggySimpliLearnCucumber%20_Booking_Com/src/test/java/features/Booking.feature:14)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -166,18 +203,70 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:11:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>And : User select the date and clicks on search button</a>
+<div class="">
+<span class="badge badge-default">Booking Feature.Booking a roundTrip.And : User select the date and clicks on search button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr 26, 2023 02:16:43 PM</h3>
+<h3>May 3, 2023 01:10:48 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr 26, 2023 02:16:44 PM</h3>
+<h3>May 3, 2023 01:11:41 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -248,10 +337,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='71%'><b>5</b> steps passed</small></div>
+<div><small data-tooltip='85%'><b>6</b> steps passed</small></div>
 <div>
 <small data-tooltip='14%'><b>1</b> steps failed,
-<b>1</b> skipped, <b data-tooltip='%'>0</b> others
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -267,7 +356,7 @@
 </div></div>
 <script>
 var timeline = {
-"Booking Feature":0.023
+"Booking Feature":52.989
 };
 </script>
 <div class="row">
@@ -287,10 +376,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 5,
+passGrandChild: 6,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 1,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };

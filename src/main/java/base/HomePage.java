@@ -1,28 +1,65 @@
 package base;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
-
-import java.util.List;
 
 public class HomePage extends Base {
-
-
-    public static void getdriver(){
-
-    }
 
     public  HomePage(){
         PageFactory.initElements(driver, this);
     }
 
+@FindBy(xpath = "//input[@type='email']")
+private  WebElement ContailEmail;
 
+
+    @FindBy(xpath = "//input[@type='tel']")
+    private  WebElement phonenumber;
+
+    @FindBy(xpath = "//*[@autocomplete='given-name']")
+    private  WebElement firstname;
+
+    @FindBy(xpath = "//*[@autocomplete='family-name']")
+    private  WebElement LastName;
+
+    public WebElement getContailEmail() {
+        return ContailEmail;
+    }
+
+    public WebElement getPhonenumber() {
+        return phonenumber;
+    }
+
+    public WebElement getFirstname() {
+        return firstname;
+    }
+
+    public WebElement getLastName() {
+        return LastName;
+    }
+
+    public WebElement getSelecting_the_gender_of_passenger() {
+        return Selecting_the_gender_of_passenger;
+    }
+
+    public WebElement getClick_Next_Passenger_Detail_page() {
+        return Click_Next_Passenger_Detail_page;
+    }
+
+    public WebElement getOrigindestinationtextbox() {
+        return origindestinationtextbox;
+    }
+
+    @FindBy(xpath = "(//select[@autocomplete='sex']//child::option//following-sibling::option)[2]")
+    private  WebElement Selecting_the_gender_of_passenger;
+
+    @FindBy(xpath = "//button[@type='button']//span[text()='Next']")
+    private  WebElement Click_Next_Passenger_Detail_page;
     @FindBy(xpath = "//*[contains(@role,'dialog')]")
             private WebElement dialogbox;
+
+
 
     @FindBy(xpath = "//a[@id='flights']")
     private WebElement flights;
@@ -61,6 +98,31 @@ public class HomePage extends Base {
 
     @FindBy(xpath = "//button[@data-ui-name='button_occupancy_action_bar_done']")
     private WebElement travelerdone;
+
+    @FindBy(xpath="//input[@placeholder='Airport or city']")
+    private WebElement origindestinationtextbox;
+
+    @FindBy(xpath = "(//li[@data-ui-name='locations_list_item'])[1]//span//input")
+    private WebElement checkbox;
+
+    @FindBy(xpath = "(//li[@data-ui-name='locations_list_item'])[1]")
+    private WebElement originfirstOption;
+
+    public WebElement getOriginfirstOption() {
+        return originfirstOption;
+    }
+
+    public WebElement getOriginDestinationtextbox() {
+        return origindestinationtextbox;
+    }
+
+    public WebElement getCheckbox() {
+        return checkbox;
+    }
+
+    public WebElement getDestination() {
+        return Destination;
+    }
 
     public WebElement getAddadult() {
         return addadult;
@@ -112,11 +174,11 @@ public class HomePage extends Base {
     private WebElement Date_Picker;
 
 
-    @FindBy(xpath = "//span[contains(@data-date,'2023-05-28')]")
+    @FindBy(xpath = "(//table[@role='grid' and contains(@class,'Calendar')])[1]")
     private WebElement Select_the_date;
 
 
-    @FindBy(xpath = "//span[contains(@data-date,'2023-06-01')]")
+    @FindBy(xpath = "(//table[@role='grid' and contains(@class,'Calendar')])[2]")
     private WebElement Reaching_date;
 
 

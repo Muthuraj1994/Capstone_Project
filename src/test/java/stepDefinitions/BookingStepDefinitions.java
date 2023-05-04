@@ -46,16 +46,6 @@ public class BookingStepDefinitions {
     }
 
 
-    @Test
-    public void roundtrip(){
-        user_uses_the_booking_com_application_as_guest_user();
-        user_selects_the_flights_section();
-        user_selects_the_cabintype_as("");
-        user_selects_the_travel_type_as("");
-        user_enters_the_travelers_information_and_and_age(1,0,0);
-        users_selects_origin_and_destination("","");
-        user_select_the_date_and_clicks_on_search_button();
 
-    }
 
 }
