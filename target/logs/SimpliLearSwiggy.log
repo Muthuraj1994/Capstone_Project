@@ -1,131 +1,28 @@
-[INFO ] 2023-04-19 12:42:11.528 [main] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-19 12:42:23.895 [main] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-19 12:42:36.081 [main] Testing the addProductToCartTest - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-19 12:42:59.215 [main] Testing the addProductToCartTest - No PopUp Found
-[INFO ] 2023-04-19 12:43:01.422 [main] Testing the addProductToCartTest - 150
-[INFO ] 2023-04-19 12:43:01.658 [main] Testing the addProductToCartTest - Verified the Sub Total with To Pay
-[INFO ] 2023-04-20 11:48:01.826 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 11:49:16.815 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 11:49:32.203 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 11:49:55.599 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - No PopUp Found
-[INFO ] 2023-04-20 11:49:57.961 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - 147
-[INFO ] 2023-04-20 11:49:58.483 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Verified the Sub Total with To Pay
-[INFO ] 2023-04-20 12:15:46.501 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:15:59.151 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:17:01.179 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Exception occured in initializing Browser
-[INFO ] 2023-04-20 12:17:01.972 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Exception occured in initializing Browser
-[INFO ] 2023-04-20 12:22:12.436 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:22:25.435 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:22:30.366 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Exception occured in initializing Browser
-[INFO ] 2023-04-20 12:22:31.219 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Exception occured in initializing Browser
-[INFO ] 2023-04-20 12:24:56.538 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:25:08.395 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:25:13.310 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Exception occured in initializing Browser
-[INFO ] 2023-04-20 12:25:14.200 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Exception occured in initializing Browser
-[INFO ] 2023-04-20 12:33:47.343 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:34:26.603 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:34:53.215 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 12:35:16.384 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - No PopUp Found
-[INFO ] 2023-04-20 12:35:18.582 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - 150
-[INFO ] 2023-04-20 12:35:18.848 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Verified the Sub Total with To Pay
-[INFO ] 2023-04-20 12:35:28.639 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the operadriver - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:08:03.754 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:08:16.333 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:08:28.370 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:08:51.794 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - No PopUp Found
-[INFO ] 2023-04-20 13:08:54.044 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - 260
-[INFO ] 2023-04-20 13:08:54.295 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Verified the Sub Total with To Pay
-[INFO ] 2023-04-20 13:09:07.267 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the operadriver - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:35:45.648 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:35:56.230 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:36:05.481 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:36:28.567 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - No PopUp Found
-[INFO ] 2023-04-20 13:36:30.849 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - 260
-[INFO ] 2023-04-20 13:36:31.143 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Verified the Sub Total with To Pay
-[INFO ] 2023-04-20 13:36:41.325 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the operadriver - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:46:05.334 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:46:18.463 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:46:32.321 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:46:55.705 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - No PopUp Found
-[INFO ] 2023-04-20 13:46:57.978 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - 180
-[INFO ] 2023-04-20 13:46:58.280 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Verified the Sub Total with To Pay
-[INFO ] 2023-04-20 13:47:10.503 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the operadriver - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:48:11.640 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findStoresWithLocation - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:48:24.893 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the findProduct - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:48:56.790 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-20 13:49:21.525 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - No PopUp Found
-[INFO ] 2023-04-20 13:49:24.065 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - 180
-[INFO ] 2023-04-20 13:49:24.823 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the addProductToCartTest - Verified the Sub Total with To Pay
-[INFO ] 2023-04-20 13:50:19.864 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Testing the operadriver - Validated the Title -Order food online from India's best food delivery service. Order from restaurants near you
-[INFO ] 2023-04-26 11:01:00.034 [main] Logging with Valid Credentials - Clicked on the pop up
-[INFO ] 2023-04-26 11:15:54.579 [main] Logging with Valid Credentials - Clicked on the Sign In
-[INFO ] 2023-04-26 11:18:10.059 [main] Logging with Valid Credentials - Clicked on the Sign In
-[INFO ] 2023-04-26 11:20:01.647 [main] Logging with Valid Credentials - Clicked on the Sign In
-[INFO ] 2023-04-26 11:21:45.181 [main] Logging with Valid Credentials - Clicked on the Sign In
-[INFO ] 2023-04-26 11:53:40.431 [main] Booking a roundTrip - Clicked on the pop up
-[INFO ] 2023-04-26 11:55:11.565 [main] Booking a roundTrip - Clicked on the pop up
-[INFO ] 2023-04-26 12:00:32.721 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 13:19:51.179 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 13:20:32.469 [main] Booking a roundTrip - Clicked on the pop up
-[INFO ] 2023-04-26 13:29:44.927 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 13:31:13.270 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 13:32:18.513 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 13:33:11.006 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 13:34:17.363 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 13:34:52.393 [main] Booking a roundTrip - Clicked on the pop up
-[INFO ] 2023-04-26 13:36:04.839 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 14:04:40.656 [main] Booking a roundTrip - Clicked on the pop up
-[INFO ] 2023-04-26 14:05:36.099 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-04-26 14:07:50.406 [main] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-05-03 13:02:30.201 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:03:34.593 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:04:19.268 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:08:20.843 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:10:18.850 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-05-03 13:11:10.350 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-2] Booking a roundTrip - No PopUp Found
-[INFO ] 2023-05-03 13:15:20.614 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:16:59.974 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:49:36.198 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:57:37.215 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:58:04.013 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 13:59:03.832 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 14:01:06.897 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 14:08:51.289 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] roundtrip - No PopUp Found
-[INFO ] 2023-05-03 14:21:50.821 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 10:45:55.600 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 10:49:14.553 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 10:54:38.685 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 10:55:14.742 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 10:58:36.054 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 11:01:36.333 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 11:03:49.993 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 11:17:44.007 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 11:18:57.199 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 11:31:31.060 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 11:31:37.328 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 11:32:21.039 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 11:32:27.189 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 11:48:19.986 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 11:48:26.112 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 12:27:01.487 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 12:27:07.794 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 12:28:32.488 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 12:28:38.587 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 12:29:47.534 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 12:29:54.044 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 12:31:02.229 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 12:31:08.241 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 12:33:08.307 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 12:33:14.505 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 12:37:43.436 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 12:37:49.553 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 12:43:23.961 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 12:43:29.774 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 12:44:49.083 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 12:44:54.958 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 13:15:31.062 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 13:15:36.177 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 13:17:30.516 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 13:17:35.606 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
-[INFO ] 2023-05-04 13:18:30.497 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - Clicked on the pop up
-[INFO ] 2023-05-04 13:18:35.107 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] SimpliLearnCucumber_Author_MuthuRaja - The option is already selected
+[INFO ] 2023-05-05 12:58:33.017 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Clicked on the pop up
+[INFO ] 2023-05-05 12:58:37.954 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - The option is already selected
+[INFO ] 2023-05-05 12:59:14.384 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 12:59:27.240 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Clicked on the pop up
+[INFO ] 2023-05-05 12:59:32.163 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - The option is already selected
+[INFO ] 2023-05-05 12:59:45.840 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Stale Element Exception Occured
+[INFO ] 2023-05-05 13:00:06.198 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:00:26.256 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:00:38.154 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Clicked on the pop up
+[INFO ] 2023-05-05 13:00:43.452 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - The option is already selected
+[INFO ] 2023-05-05 13:01:11.986 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:01:32.030 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:01:52.074 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:02:03.349 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Clicked on the pop up
+[INFO ] 2023-05-05 13:02:08.376 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - The option is already selected
+[INFO ] 2023-05-05 13:02:43.110 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:03:03.158 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:03:16.250 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Clicked on the pop up
+[INFO ] 2023-05-05 13:03:21.886 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - The option is already selected
+[INFO ] 2023-05-05 13:04:01.537 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:04:15.574 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Clicked on the pop up
+[INFO ] 2023-05-05 13:04:21.232 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - The option is already selected
+[INFO ] 2023-05-05 13:04:38.373 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Stale Element Exception Occured
+[INFO ] 2023-05-05 13:04:58.394 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed
+[INFO ] 2023-05-05 13:05:26.884 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Clicked on the pop up
+[INFO ] 2023-05-05 13:05:31.952 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - The option is already selected
+[INFO ] 2023-05-05 13:05:49.298 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Stale Element Exception Occured
+[INFO ] 2023-05-05 13:06:09.346 [TestNG-test=SimpliLearnCucumber_Author_MuthuRaja-1] BookingDotComTests - Selection of seats screen has not displayed

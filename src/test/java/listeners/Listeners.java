@@ -20,7 +20,7 @@ public class Listeners implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        base.tearDownDriver();
+
     }
 
     @Override
@@ -45,14 +45,7 @@ public class Listeners implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        System.out.println("TestNG Listeners On Start #########################################################");
-        String browserName="chrome";
-        try {
-            base.initializeDriver(browserName);
-            base.initializeLogger(context.getName());
-        } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
-        }
+
     }
 
     @Override

@@ -177,6 +177,12 @@ private  WebElement ContailEmail;
     @FindBy(xpath = "(//table[@role='grid' and contains(@class,'Calendar')])[1]")
     private WebElement Select_the_date;
 
+    @FindBy(xpath = "(//table[@role='grid' and contains(@class,'Calendar')])[2]")
+    private WebElement Select_the_second_date;
+
+    public WebElement getSelect_the_second_date() {
+        return Select_the_second_date;
+    }
 
     @FindBy(xpath = "(//table[@role='grid' and contains(@class,'Calendar')])[2]")
     private WebElement Reaching_date;

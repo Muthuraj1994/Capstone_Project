@@ -17,4 +17,11 @@ public class SeatsPage extends Base{
     public WebElement getSkipbutton() {
         return skipbutton;
     }
+
+    @FindBy(xpath = "//button[@type='button']//span[text()='Next']")
+    private  WebElement Click_Next_Passenger_Detail_page;
+
+    public WebElement getClick_Next_Passenger_Detail_pagee() {
+        return Click_Next_Passenger_Detail_page;
+    }
 }

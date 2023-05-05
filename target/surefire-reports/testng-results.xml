@@ -1,125 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="69748" started-at="2023-04-19T12:41:58 IST" finished-at="2023-04-19T12:43:08 IST">
+  <suite name="All Test Suite" duration-ms="488691" started-at="2023-05-05T12:58:23 IST" finished-at="2023-05-05T13:06:32 IST">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TestRunner@24b1d79b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="SimpliLearnCucumber_Author_MuthuRaja" duration-ms="69748" started-at="2023-04-19T12:41:58 IST" finished-at="2023-04-19T12:43:08 IST">
-      <class name="TestRunners.Sampltest">
-        <test-method status="PASS" signature="findstoreswithLocation([Ljava.lang.Object;)[pri:0, instance:TestRunners.Sampltest@10a035a0]" name="findstoreswithLocation" duration-ms="2" started-at="2023-04-19T12:41:59 IST" data-provider="data" finished-at="2023-04-19T12:41:59 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@9f2fe2e]]>
-              </value>
-            </param>
-          </params>
+    <test name="SimpliLearnCucumber_Author_MuthuRaja" duration-ms="488691" started-at="2023-05-05T12:58:23 IST" finished-at="2023-05-05T13:06:32 IST">
+      <class name="TestNGTests.RestAssuredTests">
+        <test-method status="PASS" signature="getFlights()[pri:0, instance:TestNGTests.RestAssuredTests@47db50c5]" name="getFlights" duration-ms="1929" started-at="2023-05-05T12:58:23 IST" finished-at="2023-05-05T12:58:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findstoreswithLocation -->
-        <test-method status="PASS" signature="findstoreswithLocation([Ljava.lang.Object;)[pri:0, instance:TestRunners.Sampltest@10a035a0]" name="findstoreswithLocation" duration-ms="0" started-at="2023-04-19T12:41:59 IST" data-provider="data" finished-at="2023-04-19T12:41:59 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@612ac38b]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getFlights -->
+      </class> <!-- TestNGTests.RestAssuredTests -->
+      <class name="TestNGTests.BookingDotComTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="setup" is-config="true" duration-ms="8150" started-at="2023-05-05T12:58:23 IST" finished-at="2023-05-05T12:58:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findstoreswithLocation -->
-        <test-method status="PASS" signature="findstoreswithLocation([Ljava.lang.Object;)[pri:0, instance:TestRunners.Sampltest@10a035a0]" name="findstoreswithLocation" duration-ms="0" started-at="2023-04-19T12:41:59 IST" data-provider="data" finished-at="2023-04-19T12:41:59 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@4dd4965a]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="onewayBusiness()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="onewayBusiness" duration-ms="48189" started-at="2023-05-05T12:58:31 IST" finished-at="2023-05-05T12:59:19 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findstoreswithLocation -->
-        <test-method status="PASS" signature="findstoreswithLocation([Ljava.lang.Object;)[pri:0, instance:TestRunners.Sampltest@10a035a0]" name="findstoreswithLocation" duration-ms="0" started-at="2023-04-19T12:41:59 IST" data-provider="data" finished-at="2023-04-19T12:41:59 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@79273a4f]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- onewayBusiness -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="teardown" is-config="true" duration-ms="180" started-at="2023-05-05T12:59:19 IST" finished-at="2023-05-05T12:59:20 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findstoreswithLocation -->
-      </class> <!-- TestRunners.Sampltest -->
-      <class name="TestRunners.TestRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunners.TestRunner@24b1d79b]" name="setUpClass" is-config="true" duration-ms="635" started-at="2023-04-19T12:41:59 IST" finished-at="2023-04-19T12:41:59 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@66a8751a]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="setup" is-config="true" duration-ms="6025" started-at="2023-05-05T12:59:20 IST" finished-at="2023-05-05T12:59:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TestRunner@24b1d79b]" name="runScenario" duration-ms="11814" started-at="2023-04-19T12:41:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-19T12:42:11 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Testing the findStoresWithLocation"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Feature"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="onewayEconomy()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="onewayEconomy" duration-ms="65508" started-at="2023-05-05T12:59:26 IST" finished-at="2023-05-05T13:00:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TestRunner@24b1d79b]" name="runScenario" duration-ms="12364" started-at="2023-04-19T12:42:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-19T12:42:24 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Testing the findProduct"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Feature"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- onewayEconomy -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="teardown" is-config="true" duration-ms="129" started-at="2023-05-05T13:00:31 IST" finished-at="2023-05-05T13:00:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunners.TestRunner@24b1d79b]" name="runScenario" duration-ms="37756" started-at="2023-04-19T12:42:24 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-19T12:43:01 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Testing the addProductToCartTest"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Test Feature"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="setup" is-config="true" duration-ms="5021" started-at="2023-05-05T13:00:31 IST" finished-at="2023-05-05T13:00:36 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunners.TestRunner@24b1d79b]" name="tearDownClass" is-config="true" duration-ms="6444" started-at="2023-04-19T12:43:01 IST" finished-at="2023-04-19T12:43:08 IST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="onewayFirstClass()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="onewayFirstClass" duration-ms="80708" started-at="2023-05-05T13:00:36 IST" finished-at="2023-05-05T13:01:57 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- TestRunners.TestRunner -->
+        </test-method> <!-- onewayFirstClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="teardown" is-config="true" duration-ms="164" started-at="2023-05-05T13:01:57 IST" finished-at="2023-05-05T13:01:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="setup" is-config="true" duration-ms="4843" started-at="2023-05-05T13:01:57 IST" finished-at="2023-05-05T13:02:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="onewayPremiumEconomy()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="onewayPremiumEconomy" duration-ms="66147" started-at="2023-05-05T13:02:02 IST" finished-at="2023-05-05T13:03:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayPremiumEconomy -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="teardown" is-config="true" duration-ms="166" started-at="2023-05-05T13:03:08 IST" finished-at="2023-05-05T13:03:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="setup" is-config="true" duration-ms="6296" started-at="2023-05-05T13:03:08 IST" finished-at="2023-05-05T13:03:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="roundTripBusiness()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="roundTripBusiness" duration-ms="51980" started-at="2023-05-05T13:03:15 IST" finished-at="2023-05-05T13:04:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTripBusiness -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="teardown" is-config="true" duration-ms="123" started-at="2023-05-05T13:04:07 IST" finished-at="2023-05-05T13:04:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="setup" is-config="true" duration-ms="7159" started-at="2023-05-05T13:04:07 IST" finished-at="2023-05-05T13:04:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="roundTripEconomy()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="roundTripEconomy" duration-ms="65752" started-at="2023-05-05T13:04:14 IST" finished-at="2023-05-05T13:05:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTripEconomy -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="teardown" is-config="true" duration-ms="116" started-at="2023-05-05T13:05:20 IST" finished-at="2023-05-05T13:05:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="setup" is-config="true" duration-ms="5365" started-at="2023-05-05T13:05:20 IST" finished-at="2023-05-05T13:05:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="roundTripPremiumEconomy()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="roundTripPremiumEconomy" duration-ms="66392" started-at="2023-05-05T13:05:25 IST" finished-at="2023-05-05T13:06:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTripPremiumEconomy -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNGTests.BookingDotComTests@8e24743]" name="teardown" is-config="true" duration-ms="246" started-at="2023-05-05T13:06:32 IST" finished-at="2023-05-05T13:06:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNGTests.BookingDotComTests -->
     </test> <!-- SimpliLearnCucumber_Author_MuthuRaja -->
   </suite> <!-- All Test Suite -->
 </testng-results>

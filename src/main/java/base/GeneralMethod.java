@@ -1,8 +1,7 @@
 package base;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 
 import java.text.SimpleDateFormat;
@@ -89,6 +88,13 @@ public class GeneralMethod extends Base {
         homePage.getSearch_button().click();
     }
 
+    public void selectthedateforroundtrip() {
+        homePage.getDate_Picker().click();
+        homePage.getSelect_the_date().click();
+        homePage.getSelect_the_second_date().click();
+        homePage.getSearch_button().click();
+    }
+
     public void selecttheFlight() {
         flightSelectionPage.getSelectFlight().click();
     }
@@ -100,6 +106,7 @@ public class GeneralMethod extends Base {
     public void FillContactDetails() {
         String email = RandomStringUtils.random(6, true, true) + "@gmail.com";
         String phone = "9" + RandomStringUtils.random(9, false, true);
+        travellerDetailPage.getClick_Next_Passenger_Detail_page().click();
         travellerDetailPage.getContailEmail().sendKeys(email);
         travellerDetailPage.getPhonenumber().sendKeys(phone);
     }
@@ -119,12 +126,52 @@ public class GeneralMethod extends Base {
     }
 
     public void clickonSkipSeats() {
-        seatsPage.getSkipbutton().click();
+        SeatsPage seatsPage1=new SeatsPage();
+        try {
+            seatsPage1.getClick_Next_Passenger_Detail_pagee().click();
+
+        }catch (StaleElementReferenceException Stale){
+            logger.info("Stale Element Exception Occured");
+        }catch (Exception e){
+            logger.info("Selection of seats screen has not displayed");
+        }
+
+        try{
+            seatsPage1.getSkipbutton().click();
+        }catch (StaleElementReferenceException Stale){
+            logger.info("Stale Element Exception Occured");
+        }catch (Exception e){
+            logger.info("Selection of seats screen has not displayed");
+        }
+
+        try {
+
+            seatsPage1.getClick_Next_Passenger_Detail_pagee().click();
+
+        }catch (StaleElementReferenceException Stale){
+            logger.info("Stale Element Exception Occured");
+        }catch (Exception e){
+            logger.info("Selection of seats screen has not displayed");
+        }
+
     }
 
 
     public void fillPayment() {
 
+        WebElement element=paymentPage.getBack();
+
+        JavascriptExecutor je = (JavascriptExecutor) driver;
+
+        je.executeScript("arguments[0].scrollIntoView(true);",element);
+
+        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@title='Payment']")));
+        try {
+            Thread.sleep(5000);
+        }catch (Exception e){
+
+        }
+        paymentPage.Card_Holders_Nam().clear();
         paymentPage.Card_Holders_Nam().sendKeys("MuthuRaja");
         paymentPage.Card_Number().sendKeys("4433636363636366");
         paymentPage.getExpiration_Date().sendKeys("01/26");

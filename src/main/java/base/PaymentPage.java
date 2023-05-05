@@ -11,6 +11,15 @@ public class PaymentPage extends Base{
         PageFactory.initElements(driver,this);
     }
 
+    @FindBy(xpath = "//button[@type='button']//span[text()='Back']")
+    private WebElement back;
+
+    public WebElement getBack() {
+
+        return back;
+    }
+
+
     @FindBy(xpath = "//input[@type='text' and contains(@name,'name')]")
     private WebElement eCard_Holders_Nam;
 

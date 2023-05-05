@@ -4,10 +4,13 @@
     <listeners>
             <listener class-name="listeners.Listeners"></listener>
     </listeners>
-    <test thread-count="5" parallel="methods" verbose="2" preserve-order="true"
+    <test thread-count="5" parallel="classes" verbose="2" preserve-order="true"
           name="SimpliLearnCucumber_Author_MuthuRaja">
         <classes>
-            <class name="TestNGTests.BookingDotComTests"></class>
+            <class name="TestNGTests.BookingDotComTests">
+            </class>
+            <class name="TestNGTests.RestAssuredTests"></class>
+
         </classes>
 
     </test>
